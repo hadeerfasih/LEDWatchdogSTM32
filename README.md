@@ -20,17 +20,17 @@ WDGM_ProvideSupervisionStatus: Provides the status of the LEDM entity to the wat
 WDGM_AlivenessIndication: Detects the correct timing of the call from the LED_Manage function.
 
 ## Simulation Scenarios
-A. Positive Scenario
+* A. Positive Scenario
 Verifies the periodicity of LED blinking.
 Checks calls to LEDM_Manage, WDGM_MainFunction, and refreshment of WDGDrv.
 Timing evidence is provided by toggling test pins on the oscilloscope.
-B. Negative Scenario 1
+* B. Negative Scenario 1
 Comments out the call to WDGM_MainFunction.
 Verifies that the watchdog reset occurs after 50ms.
-C. Negative Scenario 2
+* C. Negative Scenario 2
 Comments out the call to WDGM_AlivenessIndication from LEDM_Manage.
 Verifies that the watchdog reset occurs after 100ms.
-D. Negative Scenario 3
+* D. Negative Scenario 3
 Changes the periodicity of calls to LEDM_Manage to every 5ms.
 Verifies that the watchdog reset occurs after 100ms.
 

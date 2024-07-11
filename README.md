@@ -1,5 +1,5 @@
-LEDWatchdogATmega328P
-Overview
+##LEDWatchdogATmega328P
+#Overview
 This project implements an LED blinking functionality with watchdog supervision capability on an ATmega328P microcontroller. The LED blinking is managed through two software components: LEDMgr and GPIO, while the watchdog supervision is handled by WDGDrv and WDGM components. The project aims to ensure reliable LED operation by utilizing a watchdog timer to reset the system in case of malfunction.
 
 Components

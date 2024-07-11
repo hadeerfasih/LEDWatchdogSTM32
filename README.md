@@ -35,6 +35,6 @@ Changes the periodicity of calls to LEDM_Manage to every 5ms.
 Verifies that the watchdog reset occurs after 100ms.
 
 ## Requirements
-### ATmega328P microcontroller.
-### Development environment set up for ATmega328P (e.g., Atmel Studio, Arduino IDE).
-### Oscilloscope for timing verification.
+* ATmega328P microcontroller.
+* Development environment set up for ATmega328P (e.g., Atmel Studio, Arduino IDE).
+* Oscilloscope for timing verification.
